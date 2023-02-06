@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.encabezado{
+    display:grid;
+    grid-template-columns: 80px 5fr 12fr 1.5fr 10px .5fr 2fr.5fr 130px 10px;
+    padding-left: 30px;
+    
+}
+.logotipo:hover{
+    cursor: pointer;
+}
+.logotipo img{
+    padding-top: 10px;
+    width: 159px;
+}
+
+.tresrayas{
+    align-self: center;
+}
+.tresrayas img{
+    width: 24px;
+    padding: 9px 12px;
+    padding-top: 15px;
+    padding-left: 13px;
+}
+
+.tresrayas:hover{
+    background-color: rgb(236, 235, 235);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.buscar{
+    border: 1px solid rgb(191, 189, 193);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    color: rgba(79, 76, 76, 0.628);
+    background-color: rgb(255, 255, 255);
+    font-weight: 540;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 12px 10px;
+    align-self: center;
+    height: 15px;
+    padding-left: 3%;
+    padding-bottom: 18px;
+    
+}
+.buscar:hover{
+    cursor:text;
+}
+.lupa{
+    border: 1px solid rgb(191, 189, 193);
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: rgb(255, 255, 255); 
+    align-self: center;
+    height: 44px; 
+    padding-top: 1%;
+    padding-left: 15%;
+    
+}
+.lupa img{
+    width: 26px;
+    padding: 9px 12px;
+}
+.lupa:hover{
+    background-color: rgb(236, 235, 235);   
+    cursor: pointer;
+}
+.microfono img{
+    width: 19px;
+    padding: 10px 15px;
+}
+.tresrayas{
+    grid-area: 1/1/1/1;
+    align-self: center;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.trespuntos{
+    align-self: center;
+}
+.trespuntos:hover{
+    cursor: pointer;
+}
+.acceder{
+    align-self: center;
+    border: 1px solid rgb(206, 204, 209);
+    border-radius: 60px;
+    background-color: rgb(255, 255, 255); 
+    padding: 3px 9px;
+    padding-top: 3%;
+}
+.acceder img{
+    width: 107px;
+    padding-top: 3px;
+}
+.acceder:hover{
+    background-color:#dbe1fdda;
+    border: 1px solid#dbf4fd;
+    cursor: pointer;
+}
+
+.microfono{
+    align-self: center;
+    background-color: rgb(250, 248, 248);
+    border-radius: 100%;
+    padding: .5px .5px;
+}
+.microfono:hover{
+    background-color: rgb(236, 235, 235);
+    cursor: pointer;
+}
+.icon .tooltrip{
+    position: absolute;
+    top: 70px;
+    color: aliceblue;
+    background-color: rgb(86, 86, 92);
+    border-radius: 10px;
+    opacity: 0;
+    padding: 10px 18px;
+    padding-bottom: 5px;
+}
+.icon:hover .tooltrip{
+opacity: .8;
+pointer-events: auto;
+}
+
+.info{
+    display: grid;
+    row-gap: 0px;
+    grid-template-columns: 7.5rem 1fr;
+    margin: 0
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    width: 5rem;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+.botones img{
+width: 30px;
+}
+.botones:hover{
+    cursor: pointer;
+}
+.principal img{
+    width: 45px;
+}
+.principal{
+   padding-top: 17px;
+    height: 75px;
+    width: 83px;
+}
+.principal:hover{
+background-color: rgb(244, 241, 241);
+border-radius: 10px;
+}
+.shorts{
+    padding-top: 17px;
+     height: 75px;
+     width: 83px;
+ }
+ .shorts:hover{
+ background-color: rgb(244, 241, 241);
+ border-radius: 10px;
+ }
+ .suscripciones{
+    padding-top: 17px;
+     height: 75px;
+     width: 83px;
+ }
+ .suscripciones:hover{
+ background-color: rgb(244, 241, 241);
+ border-radius: 10px;
+ }
+ .biblioteca{
+    padding-top: 17px;
+     height: 75px;
+     width: 83px;
+ }
+ .biblioteca:hover{
+ background-color: rgb(244, 241, 241);
+ border-radius: 10px;
+ }
+ .historial{
+    padding-top: 17px;
+     height: 75px;
+     width: 83px;
+ }
+ .historial:hover{
+ background-color: rgb(244, 241, 241);
+ border-radius: 10px;
+ }
+.opciones{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    overflow-x: hidden;
+    width: 100%;
+    font-size: 17px;
+    white-space: nowrap;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.negro{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 8px 15px;  
+    color: aliceblue;
+}
+.negro:hover{
+    cursor: pointer;
+}
+.gris{
+    background-color: rgba(244, 242, 242, 0.954);
+    border-radius: 10px;
+    padding: 8px 15px;  
+}
+
+.gris:hover{
+    background-color: rgb(232, 231, 231);
+    cursor: pointer;
+}
+.centro{
+    padding-top: 30px;
+    display: grid;
+    padding-left: 0px;
+    grid-template-columns: 750px 1fr;
+}
+.centro img{
+    border-radius: 20px;
+}
+.girar{
+    --size:100px;
+    --gap:15px;
+    --scale:1;
+    display: grid;
+    gap: var(--gap);
+    width: calc(2*var(--size)+4*var(--gap));
+    aspect-ratio: 2.8;
+    grid-template-columns: repeat(2,auto);
+}
+.girar img{
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    transition: all 750ms;
+    cursor: pointer;
+}
+
+.girar img:hover{
+    width: calc(2*var(--size)*var(--scale));
+}
+
+.suburban{
+    display: flex;
+    padding-left: 15px;
+    flex-direction: column; 
+}
+
+.carro img{
+    height: 160px;
+}
+.logow img{
+    height: 110px;
+}
+.venta{
+    display: flex;
+    flex-direction: row;
+}
+.infoventa{
+    padding-top: 10px;
+    line-height: 27px;
+    padding-left: 10px;
+}
+.boton{
+    background-color: rgb(55, 88, 197);
+    border-radius: 50px;
+    padding: 8px;  
+    color: aliceblue;
+    width: 90px;
+    text-align: center;
+}
+.boton:hover{
+    background-color: rgb(40, 52, 130);
+    cursor: pointer;
+}
+.recomendaciones{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px,1fr));
+    padding-top: 45px;
+    
+}
+.videos img{
+    width: 340px;
+    border-radius: 20px;
+}
+.videos{
+    padding: 4px;
+}
+.morat{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.moratin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.morat:hover .moratin{
+    display: block;
+    cursor: pointer;
+}
+.hash{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.hash img{
+    width: 340px;
+    border-radius: 20px;
+}
+.hashin img{
+    border-radius: 3px;
+    width: 325px;
+}
+
+.hashin{
+    position: absolute;
+    top: 129px;
+    left: 0;
+    padding-left: 7px;
+    width: 20px;
+    border-radius: 0px;
+    display: none;
+}
+.hash:hover .hashin{
+    display: block;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.youtuber img{
+    width: 55px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.who{
+    padding-top: 5px;
+    color: rgb(155, 160, 158);
+}
+.envivo img{
+    width: 100px;
+}
+.envivo{
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.juanes{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.juanesin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.juanes:hover .juanesin{
+    display: block;
+    cursor: pointer;
+}
+
+.dana{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.danasin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.dana:hover .danasin{
+    display: block;
+    cursor: pointer;
+}
